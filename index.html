@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
 
-<body>
-    
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <title> Taobao Demo </title>
+</head>
 
-    <img id='image', src="thumbnail.jpg" , style="position:absolute;z-index:1; 
+<body>
+    <img id='image' , src="thumbnail.jpg" , style="position:absolute;z-index:1; 
         left: 200px; width: 208px; height: 208px; display:block; opacity: 1.0" , onclick=HideImageAndShowVideo()>
-    <img id='embed_play', src = "embed_play.png", style="position:absolute; z-index: 3; left: 292px; top: 100px;
-    width: 50px; height: 50px; display: block;", onclick=HideImageAndShowVideo()>
-    <video id='spin', src="spin.webm" , width="512" , height="512" , loop = "true", autoplay,   
-    style="display:block;z-index:2;position:absolute;left: 200px; width: 208px; height:208px; display:block; opacity: 0.0">
+    <img id='embed_play' , src="embed_play.png" , style="position:absolute; z-index: 3; left: 292px; top: 100px;
+    width: 50px; height: 50px; display: block;" , onclick=HideImageAndShowVideo()>
+    <video id='spin' , src="spin.webm" , width="512" , height="512" , loop="true" , autoplay, style="display:block;z-index:2;position:absolute;left: 200px; width: 208px; height:208px; display:block; opacity: 0.0">
     </video>
     <script src="arq.js"></script>
 </body>
