@@ -40,6 +40,8 @@ function onMouseUp() {
         }
         else if (mouseSpeed < -playThreshold) {
             videoObj.play();
+            videoObj.playbackRate = 1.0;
+            //clearInterval(setIntervalID);
             //reversePlaySpeed = -2 * mouseSpeed;
             //ReversePlayOneFrame();
         }
@@ -59,6 +61,8 @@ function onMouseOut() {
         else if(mouseSpeed < -playThreshold)
         {
             videoObj.play();
+            videoObj.playbackRate = 1.0;
+            //clearInterval(setIntervalID);
             //reversePlaySpeed = -2 * mouseSpeed;
             //ReversePlayOneFrame();
         }
